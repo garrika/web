@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <item>
-            <title>Noticias 2025</title>
-            <link>https://miweb.com</link>
-            <description>Últimas noticias sobre EL TIEMPO</description>
-            <language>es</language>
-            <pubDate>Sun, 02 Feb 2025 12:00:00 GMT</pubDate>
-        </item>
+        <title>Noticias 2025</title>
+        <link>https://garrika.github.io/web/</link>
+        <description>Últimas noticias sobre EL TIEMPO</description>
+        <language>es</language>
+        <pubDate>Sun, 02 Feb 2025 12:00:00 GMT</pubDate>
+        <atom:link href="https://garrika.github.io/web/feed.xml" rel="self" type="application/rss+xml" />
+
         <item>
             <title>Frío extremo en la península</title>
             <link>https://miweb.com</link>
             <description>La Aemet prevé la llegada de un frente frío con nevadas en la cordillera Cantábrica y meseta norte.</description>
             <pubDate>Sun, 02 Feb 2025 10:00:00 GMT</pubDate>
+            <guid isPermaLink="true">https://miweb.com/noticia1</guid>
+        </item>
+
+        <item>
+            <title>Recomendaciones ante el frío extremo</title>
+            <link>https://miweb.com</link>
+            <description>Protección Civil lanza una serie de consejos para evitar problemas de salud durante la ola de frío.</description>
+            <pubDate>Sun, 02 Feb 2025 11:00:00 GMT</pubDate>
+            <guid isPermaLink="true">https://miweb.com/noticia2</guid>
         </item>
     </channel>
 </rss>
